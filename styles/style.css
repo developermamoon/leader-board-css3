@@ -1,11 +1,48 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 /* common style */
 body{
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Roboto', sans-serif; */
     background-color: #F3F1FF;
+}
+header{
+    height: 94px;
+    width: auto;
+    background-color: #562EFF;
+    display: flex;
+}
+header nav {
+    width: 920px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav .left{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+nav .left p{
+    font-size: 24px;
+}
+nav .left img{
+    height: 51px;
+    width: 41px;
+    margin-right: 16px;
+}
+nav .right{
+    display: flex;
+    align-items: center;
+}
+nav .right p{
+   margin-left: 36px;
+   color: white;
 }
 main{
     display: flex;
