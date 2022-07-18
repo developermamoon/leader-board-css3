@@ -185,7 +185,7 @@ courses style
 
 /*---media queries 
 ---------------------*/
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 688px) {
     
     header{
         padding: 10px;
