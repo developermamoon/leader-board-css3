@@ -212,7 +212,7 @@ courses style
     }
     nav .right{
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
     nav .left{
         padding: 15px 5px;
@@ -220,18 +220,20 @@ courses style
     nav .left p{
         font-size: 36px;
     }
+    
     nav .right a{
         margin-left: 0px;
         font-size: 20px;
-        padding: 15px 5px;
+        padding: 15px 160px;
         color: white;
         text-decoration: none;
     }
     nav .right a:hover {
         background-color: #FF4A60;
-        width: 600px;
+        /* width: 600px; */
         text-align: center;
     }
+    
     
     .section-title{
         text-align: center;
