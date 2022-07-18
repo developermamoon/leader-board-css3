@@ -48,6 +48,7 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 .container{
     background-color: #FFFFFF;
@@ -55,6 +56,9 @@ main{
     padding: 30px;
     margin-top: 21px;
     border-radius: 5px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
 }
 .top-players{
     margin-bottom: 30px;
@@ -181,7 +185,13 @@ courses style
         font-size: 35px;
     }
     .container{
-        width: 100%;
+        /* width: 100%; */
+    }
+    hr{
+        text-align: center;
+        justify-content: center;
+        margin:  auto 50px;
+
     }
     .players, .blogs, .courses{
         grid-template-columns: repeat(1, 1fr);
