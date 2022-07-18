@@ -197,12 +197,11 @@ courses style
 @media only screen and (max-width: 688px) {
     main{
         display: block;
-
     }
+
     header{
         padding: 10px;
         height: auto;
-        
     }
     header nav {
         flex-direction: column;
@@ -233,7 +232,6 @@ courses style
         /* width: 600px; */
         text-align: center;
     }
-    
     
     .section-title{
         text-align: center;
@@ -286,3 +284,65 @@ courses style
         text-align: center;
     }
 }
+
+/*------------------------- 
+media query medium device
+--------------------------*/
+
+@media only screen and (min-width: 689px) and (max-width: 992px){
+
+    header{
+        padding: 10px 25px;
+        height: auto;
+    }
+    header nav{
+        width: 600px;
+    }
+    .container {
+        width: auto;
+    }
+    .player img{
+        height: 150px;
+        width: 150px;
+    }
+    .player-name{
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .section-title {
+        text-align: center;
+        font-size: 25px;
+    }
+    .players,.blogs, {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .courses{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        padding: 0 120px;
+    }
+    
+    .player,.blog,.course {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 15px;
+    }
+    .blog-info{
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .course-container {
+        width: auto;
+        margin-bottom: 0px;
+    }
+    .course {
+        width: 250px;
+        height: 1000px;
+        margin: 15px 15px;
+        height: auto;
+        padding: 30px 15px;
+    }
+} 
