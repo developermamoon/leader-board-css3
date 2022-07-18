@@ -219,15 +219,17 @@ courses style
     nav .left p{
         font-size: 36px;
     }
-    nav .right div{
+    nav .right a{
         margin-left: 0px;
         font-size: 20px;
         padding: 15px 5px;
         color: white;
+        text-decoration: none;
     }
-    nav .right div:hover {
+    nav .right a:hover {
         background-color: #FF4A60;
-        width: 100%;
+        width: 600px;
+        text-align: center;
     }
     
     .section-title{
