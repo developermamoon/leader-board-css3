@@ -23,6 +23,7 @@ header nav {
     display: flex;
     justify-content: space-between;
 }
+
 nav .left{
     display: flex;
     align-items: center;
@@ -36,6 +37,13 @@ nav .left img{
     width: 41px;
     margin-right: 16px;
 }
+nav .left p:hover, img:hover {
+    cursor: pointer;
+}
+nav .right div:hover, img:hover {
+    cursor: pointer;
+}
+
 nav .right{
     display: flex;
     align-items: center;
@@ -207,6 +215,9 @@ courses style
     }
     nav .left{
         padding: 15px 5px;
+    }
+    nav .left p{
+        font-size: 36px;
     }
     nav .right div{
         margin-left: 0px;
