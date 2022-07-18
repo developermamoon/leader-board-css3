@@ -40,7 +40,7 @@ nav .left img{
 nav .left p:hover, img:hover {
     cursor: pointer;
 }
-nav .right div:hover, img:hover {
+nav .right a:hover, img:hover {
     cursor: pointer;
 }
 
@@ -48,9 +48,10 @@ nav .right{
     display: flex;
     align-items: center;
 }
-nav .right div{
+nav .right a{
    margin-left: 20px;
    color: white;
+   text-decoration: none;
 }
 main{
     display: flex;
