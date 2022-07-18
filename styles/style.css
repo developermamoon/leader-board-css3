@@ -186,7 +186,10 @@ courses style
 /*---media queries 
 ---------------------*/
 @media only screen and (max-width: 688px) {
-    
+    main{
+        display: block;
+
+    }
     header{
         padding: 10px;
         height: auto;
@@ -226,7 +229,7 @@ courses style
     }
     .course-container{
         width: auto;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         /* padding: 10px; */
     }
     hr{
@@ -241,7 +244,7 @@ courses style
         flex-direction: column;
     }
     .courses{
-        width: 250px;
+        /* width: 250px; */
         justify-content: center;
     }
     .course{
