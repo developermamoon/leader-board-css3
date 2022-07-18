@@ -15,7 +15,7 @@ header{
     height: 94px;
     width: auto;
     background-color: #562EFF;
-    display: flex;
+    /* display: flex; */
 }
 header nav {
     width: 920px;
@@ -58,6 +58,7 @@ main{
     border-radius: 5px;
     
 }
+
 .top-players{
     margin-bottom: 30px;
 }
@@ -126,22 +127,36 @@ top blog styles
 /*--------------
 courses style
 --------------- */
+.course-container {
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+    margin-bottom: 21px;
+    border-radius: 5px;
+
+}
 .courses{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     /* grid-column-gap: 23px ; */
+    justify-items: center;
 }
 .course{
     width: 233px;
     height: 270px;
+    /* height: auto; */
     background-color: rgb(236, 236, 236);
     box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
     border-radius: 15px;
-    padding: 26px 23px;
+    padding: 23px 19px;
     justify-content: center;
+}
+.course-banner{
+    text-align: center;
 }
 .course-banner img{
     width: 100%;
+    margin-bottom: 25px;
 }
 .course-info{
     display: flex;
@@ -150,6 +165,7 @@ courses style
 }
 .course-author{
     color: #ED6B4F;
+    margin-bottom: 15px;
 }
 .fa-star{
     font-size: 12px;
@@ -170,16 +186,17 @@ courses style
 /*---media queries 
 ---------------------*/
 @media only screen and (max-width: 688px) {
+    
     header{
         padding: 10px;
         height: auto;
-        /* flex-direction: column; */
         
     }
     header nav {
-        /* width: 100%; */
         flex-direction: column;
-        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+
     }
     nav .right{
         flex-direction: column;
@@ -196,7 +213,7 @@ courses style
     }
     nav .right div:hover {
         background-color: #FF4A60;
-        width: 97%;
+        width: 100%;
     }
     
     .section-title{
@@ -204,10 +221,16 @@ courses style
         font-size: 35px;
     }
     .container{
-        
+        width: auto;
+        /* padding: 10px; */
+    }
+    .course-container{
+        width: auto;
+        margin-bottom: 20px;
+        /* padding: 10px; */
     }
     hr{
-        width: 40%;
+        width: 90%;
         margin: auto;
     }
     .players, .blogs, .courses{
@@ -217,10 +240,15 @@ courses style
     .player, .blog, .course{
         flex-direction: column;
     }
+    .courses{
+        width: 250px;
+        justify-content: center;
+    }
     .course{
-        margin: 30px 0px;
+        margin: 15px 0px;
         height: auto;
     }
+    
     .player img{
         height: 150px;
         width: 150px;
@@ -231,8 +259,8 @@ courses style
     }
     
     .blog .thumbnail img {
-        width: 310px;
-        height: 207px;
+        width: 250px;
+        height: 151px;
         }
 
     .blog .blog-info{
