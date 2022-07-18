@@ -15,7 +15,7 @@ header{
     height: 94px;
     width: auto;
     background-color: #562EFF;
-    /* display: flex; */
+    display: flex;
 }
 header nav {
     width: 920px;
@@ -40,8 +40,8 @@ nav .right{
     display: flex;
     align-items: center;
 }
-nav .right p{
-   margin-left: 36px;
+nav .right div{
+   margin-left: 20px;
    color: white;
 }
 main{
