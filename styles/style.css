@@ -185,12 +185,11 @@ courses style
         font-size: 35px;
     }
     .container{
-        /* width: 100%; */
+        
     }
     hr{
-        text-align: center;
-        justify-content: center;
-        margin:  auto 50px;
+        width: 40%;
+        margin: auto;
 
     }
     .players, .blogs, .courses{
@@ -202,6 +201,7 @@ courses style
     }
     .course{
         margin: 30px 0px;
+        height: auto;
     }
     .player img{
         height: 150px;
